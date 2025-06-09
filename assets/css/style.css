@@ -6,6 +6,16 @@
     "wdth" 100;
 }
 /* SHARED STYLE */
+.btn-primary{
+    padding: 18px 34px 18px 34px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(253, 110, 10);
+    transition: 0.33s ease-in-out;
+}
 .secondary-bg {
     background-color: #FFF8F3;
 }
@@ -15,14 +25,11 @@
 .dark-2 {
     color: #474747;
 }
-.btn-primary{
-    padding: 18px 34px 18px 34px;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(253, 110, 10);
+.dark-3 {
+    color: #757575;
+}
+.dark-4 {
+    color: #A3A3A3;
 }
 .section-title {
     font-size: 35px;
@@ -148,7 +155,7 @@ main section {
     font-weight: 600;
 }
 /* ABOUT END */
-/* SKILL SECTION STYLE START */
+/* WHAT I DO / SKILL SECTION STYLE START */
 .skills-container {
     display: flex;
     gap: 24px;
@@ -161,4 +168,52 @@ main section {
 .skill-description{
     margin-right: 64px;
 }
-/* SKILL SECTION STYLE END */
+/* WHAT I DO / SKILL SECTION STYLE END */
+/* RESUME STARTS */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-title {
+    margin: 0;
+}
+.experience-sub-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.section-title {
+    text-align: center;
+}
+.resume-column {
+    margin-right: 71px;
+}
+/* RESUME ENDS */
+/* FOOTER STARTS */
+footer {
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-column {
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer input[type="textarea"] {
+    display: block;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+    height: 64px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+.d-f{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* FOOTER ENDS */
